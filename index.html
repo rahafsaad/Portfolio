@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/me.png" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Rahaf Alshareef</h1>
+          <p class="title">Business Growth | Business Analysis
+          </p>
+        
+         
+        
+        </div>
+       
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:i@rahaf.dev" class="contact-link">i@rahaf.dev</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+966551299490" class="contact-link">+966 551299490</a>
+            </div>
+
+          </li>
+
+        
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Riyadh, Saudi Arabia</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/rahafsaad" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://twitter.com/l_c0de" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/rahaf-alshareef-b165172b1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am deeply committed to leveraging technology to drive business success, employing high-level analytics and diverse technological tools to extract valuable insights from raw data.
+             My expertise extends beyond mere coding; I specialize in understanding and solving real-world business challenges through 
+             innovative applications. 
+   
+          </p>
+
+          <p>
+            Partnering with leading companies in software development, AI, and managed services,
+            I ensure our solutions are tailored to meet the unique requirements and needs of each client.  </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm Offering</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/computer-svgrepo-com.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Custom Software Development</h4>
+
+                <p class="service-item-text">
+                  Developing custom software based on your specific requirements, delivering a comprehensive solution from initial concept (A) to final implementation (Z).
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/analytics-business-and-finance-svgrepo-com.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Business Services</h4>
+
+                <p class="service-item-text">
+                  Deep analytyics that empower companies to make informed strategic decisions, enhance their competitive positioning, and drive sustainable growth in their respective industries.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/hands-to-shake-hands-svgrepo-com.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Collaboration & Partnership</h4>
+
+                <p class="service-item-text">
+                  Let's consider partnering together for mutual benefit.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/robot-svgrepo-com.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AI Integration</h4>
+
+                <p class="service-item-text">
+                  We provide AI-empowered systems that offer superior performance compared to traditional solutions
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+    
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+       
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Apple Developer Academy</h4>
+
+              <span>2023 — 2024</span>
+
+              <p class="timeline-text">
+                Apple's immersive program: Innovation, Collaboration, Excellence
+              </p>
+
+            </li>
+
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Prince Sultan University</h4>
+
+              <span>2021 — 2021</span>
+
+              <p class="timeline-text">
+                PostGraduate program DevOps.
+              </p>
+
+            </li>
+
+   
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Imam Mohammed Ibn Saud Islamic University</h4>
+
+              <span>2015 — 2020</span>
+
+              <p class="timeline-text">
+                Bachelor of Information Systems. 
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Freelance | Partner Affilate</h4>
+
+              <span>2023 — Present</span>
+
+              <p class="timeline-text">
+                An independent affiliate partner collaborating with various companies that specialize in software development, manage service and AI. This means that I work on my own to promote and market the products and services of these companies, earning commissions for successful referrals and sales.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Business Intelligence Developer | Salam Telecom Inc.</h4>
+
+              <span>2021 — 2023</span>
+
+              <p class="timeline-text">
+                • Transform unprocessed data into valuable insights that cater to the business requirements.
+
+                • Business Analysis
+                
+                • Participating in Digital Transformation
+  
+                • Automating processes
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Software Dev & Sales | Joushen CyberSecurity</h4>
+
+              <span>2020 — 2020</span>
+
+              <p class="timeline-text">
+                I am deeply involved in the development of open-source system, particularly focusing on enhancing cybersecurity measures. Simultaneously, I am actively engaged in selling cybersecurity services derived from the open-source solutions I help in develop.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">iOS Development</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Business Analysis</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Innovation & Creativity</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Learning new things</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Sales & Marketing</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+           
+            <li class="filter-item">
+              <button data-filter-btn>Business Analytics</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Software</button>
+            </li>
+            
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Business Analytics</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Software</button>
+              </li>
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="business analytics">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/DALL·E 2024-04-08 20.38.48 - A compelling and insightful illustration of Market Growth Analysis, highlighting the concepts of financial prosperity and expansion. This image featur.webp" alt="Market growth analysis" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Market growth analysis</h3>
+
+                <p class="project-category">Business Analytics</p>
+
+              </a>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="business analytics">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/DALL·E 2024-04-08 20.37.21 - A realistic illustration depicting a competitive analysis scenario where real competitors are represented as business people standing on a visualized .webp" alt="Competitive Analysis" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Competitive Analysis</h3>
+
+                <p class="project-category">Business Analytics</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="business analytics">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/DALL·E 2024-04-08 20.33.49 - A vibrant and interactive illustration depicting Customer Experience Analysis in a shopping theme, prominently featuring a shopper as the central figu.webp" alt="Customer experience analysis" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Customer experience analysis</h3>
+
+                <p class="project-category">Business Analytics</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="business analytics">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/DALL·E 2024-04-08 20.28.00 - A refined map visualization specifically highlighting neighborhood analytics in Riyadh, focusing on comparisons between different residential areas wi.webp" alt="Neighborhood Preference Analysis" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Neighborhood Preference Analysis</h3>
+
+                <p class="project-category">Business Analytics</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="business analytics">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/DALL·E 2024-04-08 20.23.23 - A conceptual and creative representation focusing on product development and pricing strategies, without using a traditional dashboard format. The ima.webp" alt="Product and Pricing Analysis" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Product and Pricing Analysis</h3>
+
+                <p class="project-category">Business Analytics</p>
+
+              </a>
+            </li>
+
+
+
+            <li class="project-item  active" data-filter-item data-category="software">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/DALL·E 2024-04-08 19.48.26 - A sleek and modern digital workspace featuring a variety of web applications and web solutions on a large, curved computer monitor. The scene is set i.webp" alt="web" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Websites & Web Apps</h3>
+
+                <p class="project-category">Software</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="software">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/DALL·E 2024-04-08 19.49.33 - An engaging and modern mobile experience showcasing a variety of mobile applications and solutions on a series of smartphones and tablets. The devices.webp" alt="mobile" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Mobile Apps</h3>
+
+                <p class="project-category">Software</p>
+
+              </a>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="software">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/DALL·E 2024-04-08 19.50.34 - A vibrant and immersive gaming environment showcasing a variety of gaming applications on a series of high-end gaming smartphones and tablets. The dev.webp" alt="games" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Games</h3>
+
+                <p class="project-category">Software</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="software">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/DALL·E 2024-04-08 19.57.28 - A dynamic and inspiring scene showcasing the concept of a Minimum Viable Product (MVP) within a vibrant startup office environment. The centerpiece is.webp" alt="MVP" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MVP</h3>
+
+                <p class="project-category">Software</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="software">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/DALL·E 2024-04-08 19.59.12 - A sophisticated and highly customized business solution scene, set within an elegant corporate office environment. The focal point is a large, curved .webp" alt="Business custom solution" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Business Custom Solution</h3>
+
+                <p class="project-category">Software</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="software">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/DALL·E 2024-04-08 20.02.24 - A focused and productive office scene showing a small team of employees collaborating closely at a single desk. They are working on an integrated busi.webp" alt="Business Systems" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Business Systems</h3>
+
+                <p class="project-category">Software</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="https://apps.apple.com/sa/app/voyage-walk/id6478062168">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/DALL·E 2024-04-08 20.45.07 - Create an image displaying a smartphone interface with the following details_ The phone screen displays a greeting message, 'Good Evening!' at the top.webp" alt="Voyage | Walk" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Mobile App</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Voyage | Walk</h3>
+
+                  <p class="blog-text">
+                    Turn every step into a Voyage 🚶🏻‍♀️. <br>
+                    Native iOS App Kits used: Healthkit, SwiftUI, Motion, Spatial Audios 🎧<br>
+                    Built with love with the best team in the world ✨: Ahlam Alshehri, Leen Almejarri.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://github.com/rahafsaad/VideoGallery">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/e.webp" alt="Video Gallery" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Website</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23"> 2020</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Video Gallery</h3>
+
+                  <p class="blog-text">
+                    Responsive video gallery web page with 2 different slide show techniques. 🎥
+                    <br>
+                    I made this website specially for Thamanyah to show off all the skills I have. It's like a personal portfolio that really shows what I can do.💪🏻
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://github.com/rahafsaad/DesignYourJewellery">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/jewe.webp" alt="Jewellery website" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Website</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">2020</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design Your Jewellery</h3>
+
+                  <p class="blog-text">
+                    I created "DesignYourJewellery," a site for users to design jewelry using their images or ours. It's bilingual, built with HTML, JavaScript, and CSS, highlighting my web development and interface design skills. 💍 <br>
+                    🥇 Winner of Web Development Competition By Digital Atta.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/api.webp" alt="API" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">API</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23"> 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">RESTful API</h3>
+
+                  <p class="blog-text">
+                    Worked with an amazing team to build a RESTful API that helps people find the best Internet Service Provider (ISP) based on their location 📍. This project shows that we can handle backend development work and perform CRUD operations. We used Vapor and PostgreSQL to make this API.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+    
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
